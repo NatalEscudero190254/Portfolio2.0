@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    .drop-shadow-custom {
+      filter: drop-shadow(0 2px 4px rgba(253, 253, 253, 0.8)); /* Reemplaza rgba(255, 0, 0, 0.1) con tu color de sombra personalizado */
+    }
+  }
