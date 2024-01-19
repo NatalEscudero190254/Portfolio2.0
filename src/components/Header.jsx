@@ -6,24 +6,24 @@ const Header = () => {
       <nav className="border  border-black rounded-md px-5 py-3 bg-neutral-200 dark:bg-black/50 backdrop-blur-xl  flex flex-row gap-10 ">
         <a
           className="hover:drop-shadow-custom px-3 rounded-md transition"
-          href=""
+          href="#experiencia"
         >
           Experiencia
         </a>
         <a
-          href=""
+          href="#proyectos"
           className="hover:drop-shadow-custom px-3 rounded-md transition"
         >
           Proyectos
         </a>
         <a
-          href=""
+          href="#sobre-mi"
           className="hover:drop-shadow-custom px-3 rounded-md transition"
         >
           Sobre mi
         </a>
         <a
-          href=""
+          href="#principal"
           className="hover:drop-shadow-custom px-3 rounded-md transition"
         >
           Contacto

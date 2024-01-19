@@ -11,7 +11,7 @@ const SocialButton = ({ icon, text, href }) => {
   text-black/70 dark:text-white
   transition
   
-  hover:scale-105 hover:bg-white/10 hover:border-blue-600 hover:cursor-pointer
+  hover:scale-105 duration-300 hover:bg-white/10 hover:border-blue-600 hover:cursor-pointer
   
 "
       target="_blank"

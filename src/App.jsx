@@ -19,7 +19,7 @@ function App() {
     <main className="relative">
       <section
         className="w-full mx-auto lg:w-[740px] pb-24 py-44"
-        id="#principal"
+        id="principal"
       >
         {/* <img
           src={avatar}
@@ -59,7 +59,7 @@ function App() {
 
       <section
         className="w-full mx-auto lg:w-[740px] pb-24 py-20 "
-        id="#experiencia"
+        id="experiencia"
       >
         <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
           <BriefCase />
@@ -69,7 +69,10 @@ function App() {
         <ExperienceSection />
       </section>
 
-      <section className="w-full mx-auto lg:w-[740px] pb-24 py-20">
+      <section
+        className="w-full mx-auto lg:w-[740px] pb-24 py-10"
+        id="proyectos"
+      >
         <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
           <Books />
           Proyectos
@@ -77,7 +80,7 @@ function App() {
         <div className="w-full max-w-[900px] grid grid-cols-10 auto-rows-[20rem] gap-2 mx-auto ">
           <ProjectsSection
             className={
-              "relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 col-span-10 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden "
+              "relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 col-span-10 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group"
             }
             title={"E-commerce GameScript"}
             description={
@@ -98,7 +101,10 @@ function App() {
         </div>
       </section>
 
-      <section className="w-full mx-auto lg:w-[740px] pb-24 py-20">
+      <section
+        className="w-full mx-auto lg:w-[740px] pb-24 py-10"
+        id="sobre-mi"
+      >
         <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
           <UserCode />
           Sobre Mi
