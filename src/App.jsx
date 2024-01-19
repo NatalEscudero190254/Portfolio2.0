@@ -80,7 +80,7 @@ function App() {
         <div className="w-full max-w-[900px] grid grid-cols-10 auto-rows-[20rem] gap-2 mx-auto ">
           <ProjectsSection
             className={
-              "relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 col-span-10 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group"
+              "relative rounded-xl backdrop-blur-md border border-black/10  col-span-10 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5 "
             }
             title={"E-commerce GameScript"}
             description={
@@ -90,12 +90,12 @@ function App() {
           ></ProjectsSection>
           <ProjectsSection
             className={
-              "relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden "
+              "relative rounded-xl backdrop-blur-md border border-black/10  col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5  "
             }
           ></ProjectsSection>
           <ProjectsSection
             className={
-              "relative rounded-xl backdrop-blur-md border border-black/10 shadow-inner shadow-white/10 col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden  "
+              "relative rounded-xl backdrop-blur-md border border-black/10  col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5  "
             }
           ></ProjectsSection>
         </div>
