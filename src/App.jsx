@@ -87,6 +87,9 @@ function App() {
               "E-commerce de venta de videojuegos, desarrollado en equipo con las tecnologias: React, Node, y SQL."
             }
             img={gamescript}
+            href={
+              "https://github.com/NatalEscudero190254/proyecto-final-gameScript"
+            }
           ></ProjectsSection>
           <ProjectsSection
             className={
@@ -95,7 +98,7 @@ function App() {
           ></ProjectsSection>
           <ProjectsSection
             className={
-              "relative rounded-xl backdrop-blur-md border border-black/10  col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5  "
+              "relative rounded-xl backdrop-blur-md border border-black/10  col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5    "
             }
           ></ProjectsSection>
         </div>
