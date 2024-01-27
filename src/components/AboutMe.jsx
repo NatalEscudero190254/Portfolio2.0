@@ -10,12 +10,12 @@ const AboutMe = ({ img }) => {
           <strong>
             empeze por el hardware desarmando componentes a temprana edad
           </strong>
-          , siempre me dio curiosidad, y actualmente me encuentro en React
+          , (siempre me dio curiosidad) y actualmente me encuentro en React
           creandolos.
         </p>
         <p>
           <strong>Junto con el deporte</strong>, sentarme a programar en mi
-          habitacion es algo que me libera el estres, aunque a veces sea
+          habitacion es algo que me libera de estres, aunque a veces sea
           frustrante.{" "}
         </p>
         <p>
