@@ -35,8 +35,7 @@ function App() {
           +1 año de experiencia en <span className="text-yellow-200">IT</span>.
           Estudiante de Lic. en Sistemas,{" "}
           <span className="text-blue-300">desarrollador SQL y Web</span>.{" "}
-          <br></br>
-          Programando con <span className="text-red-200">energia!</span>
+          
         </p>
         <nav className="flex gap-4 mt-8 flex-wrap">
           <SocialButton
