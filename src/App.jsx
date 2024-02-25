@@ -13,6 +13,7 @@ import gamescript from "./assets/gameScript.jpeg";
 import AboutMe from "./components/AboutMe";
 import UserCode from "./components/icons/UserCode";
 import Me from "./assets/Me.png";
+import sisem from "./assets/sisem-page.png";
 
 function App() {
   return (
@@ -35,7 +36,6 @@ function App() {
           +1 año de experiencia en <span className="text-yellow-200">IT</span>.
           Estudiante de Lic. en Sistemas,{" "}
           <span className="text-blue-300">desarrollador SQL y Web</span>.{" "}
-          
         </p>
         <nav className="flex gap-4 mt-8 flex-wrap">
           <SocialButton
@@ -94,6 +94,12 @@ function App() {
             className={
               "relative rounded-xl backdrop-blur-md border border-black/10  col-span-5 max-h-[740px] bg-blue-950 flex justify-end overflow-hidden group shadow-xl shadow-white/5  "
             }
+            title={"Sisem page"}
+            description={
+              "Realice un clon de la pagina principal de la web de mi trabajo "
+            }
+            img={sisem}
+            href={"https://sisem-page.vercel.app/"}
           ></ProjectsSection>
           <ProjectsSection
             className={
