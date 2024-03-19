@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = ({ img }) => {
   return (
-    <article className="flex flex-col md:flex-row gap-8 justify-center items-center">
+    <article className="flex flex-col md:flex-row gap-8 justify-center items-center text-white">
       <div className=" text-pretty [&>p]:mb-4 [&>p>strong]:font-semibold [&>p>strong]:text-blue-600">
         <p>
           Me llamo Natal, pero mis amigos me dicen Nata. La tecnología me gustó

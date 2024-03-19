@@ -1,6 +1,5 @@
 import React, { lazy } from "react";
 import "./App.css";
-import avatar from "./assets/myAvatar.svg";
 import SocialButton from "./components/SocialButton";
 import GitHub from "./components/icons/GitHub";
 import LinkedIn from "./components/icons/LinkedIn";
@@ -28,11 +27,11 @@ function App() {
           loading="lazy"
           className="h-20 w-20"
         /> */}
-        <h1 className="dark:text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
+        <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold flex flex-row gap-x-4 pb-6 lg:pb-10">
           Hola!, soy
           <span className="text-blue-600 ">Natal</span>
         </h1>
-        <p className="text-xl lg:text-2xl text-balance max-w-[700px] text-black dark:text-white">
+        <p className="text-xl lg:text-2xl text-balance max-w-[700px] text-white">
           +1 año de experiencia en <span className="text-yellow-200">IT</span>.
           Estudiante de Lic. en Sistemas,{" "}
           <span className="text-blue-300">desarrollador SQL y Web</span>.{" "}
@@ -60,7 +59,7 @@ function App() {
         className="w-full mx-auto lg:w-[740px] pb-24 py-20 "
         id="experiencia"
       >
-        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
+        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-white/80">
           <BriefCase />
           Experiencia Laboral
         </h2>
@@ -72,7 +71,7 @@ function App() {
         className="w-full mx-auto lg:w-[740px] pb-24 py-10"
         id="proyectos"
       >
-        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
+        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-white/80">
           <Books />
           Proyectos
         </h2>
@@ -113,7 +112,7 @@ function App() {
         className="w-full mx-auto lg:w-[740px] pb-24 py-10"
         id="sobre-mi"
       >
-        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-black/80 dark:text-white/80">
+        <h2 className="text-3xl flex items-center font-semibold gap-x-3 mb-6 text-white/80">
           <UserCode />
           Sobre Mi
         </h2>

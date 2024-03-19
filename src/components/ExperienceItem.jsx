@@ -6,18 +6,16 @@ const ExperienceItem = ({ title, description, link, date }) => {
       <ol className="relative border-s border-gray-200 dark:border-gray-700">
         <li className="mb-10 ms-4">
           <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-          <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-yellow-200">
+          <time className="mb-1 text-sm font-normal leading-none  text-yellow-200">
             {date}
           </time>
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-blue-400">
-            {title}
-          </h3>
-          <p className="mb-4 text-base font-normal text-gray-500 dark:text-white/80">
+          <h3 className="text-lg font-semibold text-blue-400">{title}</h3>
+          <p className="mb-4 text-base font-normal text-white/80">
             {description}
           </p>
           <a
             href={link}
-            className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-md hover:scale-105 hover:bg-white/10 hover:border-blue-600 hover:cursor-pointer dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+            className="inline-flex items-center px-4 py-2 text-sm font-medium border rounded-md hover:scale-105 hover:bg-white/10 hover:border-blue-600 hover:cursor-pointer bg-gray-800 text-gray-400 border-gray-600 hover:text-white hover:bg-gray-700 focus:ring-gray-700"
             target="_blank"
           >
             Ver más

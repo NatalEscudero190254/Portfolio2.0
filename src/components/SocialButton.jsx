@@ -3,12 +3,12 @@ import React from "react";
 const SocialButton = ({ icon, text, href }) => {
   return (
     <a
-      className="bg-white/5 
-     border dark:border-white/10 border-gray-300 rounded-md
+      className="
+      rounded-md border border-white/10
   flex justify-center items-center gap-x-2
   py-1 px-2 md:py-2 md:px-4
   text-xs md:text-base
-  text-black/70 dark:text-white
+  text-black/70 text-white
   transition
   
   hover:scale-105 duration-300 hover:bg-white/10 hover:border-blue-600 hover:cursor-pointer
